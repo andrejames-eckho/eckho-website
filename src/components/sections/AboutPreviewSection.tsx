@@ -46,14 +46,16 @@ export default function AboutPreviewSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
               viewport={{ once: true }}
-              className="space-y-6 text-stone-600 text-lg leading-relaxed"
+              className="flex justify-center"
             >
-              <p>
-                Founded with a vision to revolutionize the digital landscape, Eckho Systems has been at the forefront of technological innovation for over a decade. We combine cutting-edge expertise with deep industry knowledge to deliver solutions that not only meet today's needs but anticipate tomorrow's challenges.
-              </p>
-              <p>
-                Our team of expert engineers, designers, and strategists work collaboratively to transform complex problems into elegant, scalable solutions that drive measurable business results.
-              </p>
+              <div className="space-y-6 text-stone-600 text-lg leading-relaxed max-w-3xl text-center">
+                <p>
+                  Founded with a vision to revolutionize the digital landscape, Eckho Systems has been at the forefront of technological innovation for over a decade. We combine cutting-edge expertise with deep industry knowledge to deliver solutions that not only meet today's needs but anticipate tomorrow's challenges.
+                </p>
+                <p>
+                  Our team of expert engineers, designers, and strategists work collaboratively to transform complex problems into elegant, scalable solutions that drive measurable business results.
+                </p>
+              </div>
             </motion.div>
 
             {/* CTA */}

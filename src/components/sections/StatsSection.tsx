@@ -66,9 +66,11 @@ export default function StatsSection() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-stone-900 mb-6">
             Numbers That Matter
           </h2>
-          <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Our track record speaks for itself. We've helped countless businesses achieve their digital transformation goals.
-          </p>
+          <div className="flex justify-center">
+            <p className="text-xl text-stone-600 max-w-3xl text-center">
+              Our track record speaks for itself. We've helped countless businesses achieve their digital transformation goals.
+            </p>
+          </div>
         </motion.div>
 
         {/* Stats Grid */}

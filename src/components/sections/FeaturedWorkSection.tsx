@@ -67,9 +67,11 @@ export default function FeaturedWorkSection() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-stone-900 mb-6">
             Featured Projects
           </h2>
-          <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Discover how we've helped industry leaders transform their businesses through innovative technology solutions.
-          </p>
+          <div className="flex justify-center">
+            <p className="text-xl text-stone-600 max-w-3xl text-center">
+              Discover how we've helped industry leaders transform their businesses through innovative technology solutions.
+            </p>
+          </div>
         </motion.div>
 
         {/* Horizontal Scroll Container */}

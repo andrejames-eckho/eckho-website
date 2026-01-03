@@ -78,9 +78,11 @@ export default function ServicesGridSection() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-stone-900 mb-6">
             What We Do
           </h2>
-          <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-            Comprehensive technology services designed to transform your business and accelerate growth.
-          </p>
+          <div className="flex justify-center">
+            <p className="text-xl text-stone-600 max-w-3xl text-center">
+              Comprehensive technology services designed to transform your business and accelerate growth.
+            </p>
+          </div>
         </motion.div>
 
         {/* Services Grid */}

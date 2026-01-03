@@ -31,7 +31,7 @@ export default function ContactCTASection() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
-            className="text-xl md:text-2xl text-stone-300 leading-relaxed"
+            className="text-xl md:text-2xl text-stone-300 leading-relaxed max-w-3xl text-center"
           >
             Ready to transform your ideas into reality? We're here to help you navigate the complex world of technology and create solutions that drive real business value.
           </motion.p>
